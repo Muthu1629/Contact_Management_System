@@ -10,7 +10,7 @@ const queryClient = new QueryClient();
 const App = () => {
   return (
     <QueryClientProvider client={queryClient}>
-    <Router>
+    <Router basename="/Contact-Management-System">
       <div className="flex md:w-full h-screen overflow-hidden">
         <Sidebar />
         <div className="grow overflow-y-auto">
